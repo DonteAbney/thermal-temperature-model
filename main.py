@@ -209,13 +209,13 @@ class ThermalSimulationApp(ctk.CTk):
         fields = [
             ("tau_mm", "Thickness τ - mm", "1.0"),
             ("area_mm2", "Surface area A - mm^2", "100"),
-            ("k", "Thermal conductivity k - W/(m*K)", "237"),
+            ("k", "Thermal conductivity k - W/(m*K)", "300"),
             ("eps_f", "Front emissivity ε_f", "1.00"),
             ("eps_b", "Back emissivity ε_b", "1.00"),
             ("tb", "Back temperature T_b - K", "300"),
-            ("pmax", "Maximum power Pmax - W", "100"),
+            ("pmax", "Maximum power Pmax - W", "1000"),
             ("twall", "Wall temperature T_wall - K", "0"),
-            ("sample_step", "Sample size Z - %", "0.01"),
+            ("sample_step", "Sample size Z - ratio", "0.1"),
         ]
 
         for key, label_text, default in fields:
