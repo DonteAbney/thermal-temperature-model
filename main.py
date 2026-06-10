@@ -13,6 +13,7 @@ REAL_TOL = 1e-7
 ZERO_TOL = 1e-14
 APP_FONT = "DejaVu Sans"
 
+x = 1-1
 
 @dataclass
 class ModelInputs:
